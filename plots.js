@@ -1,5 +1,5 @@
 // Sort the data array using the greekSearchResults value
-data.sort(function(a, b) {
+data.sort(function (a, b) {
   return parseFloat(b.greekSearchResults) - parseFloat(a.greekSearchResults);
 });
 
